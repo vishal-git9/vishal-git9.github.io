@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
+.Contact{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Poppins','sans-serif';
+    width: 60%;
+    gap: 30px;
+    flex-direction: column;
+    position: relative;
+}
+
+.Contact>div:nth-child(2)>div:nth-child(1){
+    width: 50%;
+    color: #8892B0;
+}
+.Contact>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #CCD6F6;
+}
+.Contact>div:nth-child(1)>div{
+    width: 250px;
+    border: 1px solid #8892B0;
+}

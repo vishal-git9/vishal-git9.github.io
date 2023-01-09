@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
+.projects{
+    margin: auto;
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Poppins','sans-serif';
+    overflow-x: hidden;
+}
+
+.projects>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #CCD6F6;
+}
+.projects>div:nth-child(1)>div{
+    width: 250px;
+    border: 1px solid #8892B0;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.grids>div{
+    padding: 20px;
+    background-color: #112240;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.grids>div>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.link{
+    color: #8892B0;
+}
+.link:hover{
+    color: #5fe4c9;
+    cursor: pointer;
+}
+.grids>div>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    color: #5fe4c9;
+    font-size: 12px;
+    gap: 10px;
+    font-family: "Andika",sans-serif;
+}
+.grids>div>div:nth-child(2)>div:nth-child(2)>p{
+    border: 1px solid #5fe4c9;
+    padding: 5px;
+    border-radius: 5px;
+}
+.grids>div>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #CCD6F6;
+}
+.grids>div>div:nth-child(2)>div:nth-child(1)>p{
+    text-align: left;
+    color: #8892B0;
+    font-size: 14px;
+    margin-top: -10px;
+}
