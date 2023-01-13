@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
 .Skills{
     margin: auto;
-    width: 60%;
+    width: 70%;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -47,4 +47,32 @@
 
 .spinner>p{
     color: white;
+}
+
+@media screen and (min-width:420px )and (max-width:800px) {
+    .Skills{
+        width: 80%;
+    }
+    .Skills>div:nth-child(2)>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:221px )and (max-width:420px) {
+    .Skills{
+        width: 90%;
+    }
+    .Skills>div:nth-child(1)>div{
+        width: 100px;
+    }
+    .Skills>div:nth-child(1)>h2{
+        font-size: 20px;
+    }
+    .Skills>div:nth-child(2)>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-around;
+    }
 }

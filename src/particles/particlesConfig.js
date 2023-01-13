@@ -617,14 +617,14 @@ const particlesConfig = {
           type: "images",
           options: {
             images: {
-              src: "https://particles.js.org/images/cyan_amongus.png",
-              width: 500,
+              src: "https://iili.io/HYGNIAQ.png",
+              width: 600,
               height: 634
             }
           }
         },
         size: {
-          value: 40
+          value: 60
         },
         move: {
           speed: 10,

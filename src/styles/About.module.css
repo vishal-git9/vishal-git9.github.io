@@ -4,7 +4,7 @@
     margin: auto;
     margin-top: 100px;
     font-family: 'Poppins','sans-serif';
-    width: 60%;
+    width: 70%;
     gap: 30px;
     flex-direction: column;
     position: relative;
@@ -123,4 +123,34 @@
 .profile>div>:hover{
     left: 5px;
     cursor: pointer;
+}
+@media screen and (min-width:420px )and (max-width:800px) {
+    .About{
+        width: 80%;
+
+    }
+    .About>div:nth-child(2){
+        flex-direction: column;
+    }
+    .About>div:nth-child(2)>div:nth-child(1){
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:221px )and (max-width:420px) {
+    .About{
+        width: 90%;
+    }
+    .About>div:nth-child(2){
+        flex-direction: column;
+    }
+    .About>div:nth-child(1)>div{
+        width: 100px;
+    }
+    .About>div:nth-child(1)>h2{
+        font-size: 20px;
+    }
+    .About>div:nth-child(2)>div:nth-child(1){
+        width: 100%;
+    }
 }

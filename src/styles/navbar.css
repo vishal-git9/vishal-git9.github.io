@@ -54,7 +54,7 @@ position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 10px;
+  height: 8px;
   background: #5fe4c9;
   transform-origin: 0%;
 }
@@ -66,10 +66,3 @@ position: fixed;
 
 /* for medium screen */
 
-@media screen and (min-width:420px )and (max-width:800px) {
-    
-}
-/* for mobile screen */
-@media screen and (min-width:221px )and (max-width:420px) {
-    
-}

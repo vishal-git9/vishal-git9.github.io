@@ -53,7 +53,7 @@ export const Skills = () => {
           <p style={{color:"#2F74C0"}}>Typescript</p>
           </div>
         </div>
-        <div ref={parallax2.ref} className="spiner">
+        <div ref={parallax2.ref} className="spinner">
           <div className={styles.spinner}><FaReact color="#5ED3F3" fontSize={"50px"}/>
           <p style={{color:"#5ED3F3"}}>React</p>
           </div>
@@ -67,7 +67,7 @@ export const Skills = () => {
           <p style={{color:"#319795"}}>ChakraUI</p>
           </div>
         </div>
-        <div ref={ref} className="spnner">
+        <div ref={ref} className="spinner">
           <div className={styles.spinner}><SiStorybook color="#FF4785" fontSize={"50px"}/>
           <p style={{color:"#FF4785"}}>Storybook</p>
           </div>

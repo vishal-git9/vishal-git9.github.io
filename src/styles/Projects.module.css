@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
 .projects{
     margin: auto;
-    width: 60%;
+    width: 70%;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -74,4 +74,22 @@
     color: #8892B0;
     font-size: 14px;
     margin-top: -10px;
+}
+
+@media screen and (min-width:420px )and (max-width:800px) {
+    .projects{
+        width: 80%;
+    }
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width:221px )and (max-width:420px) {
+    .projects{
+        width: 90%;
+    }
+    .grids{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

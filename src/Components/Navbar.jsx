@@ -27,10 +27,10 @@ export const Navbar = () => {
         <div>
           {medium?(<Menubar/>):(<ul>
             <AnchorLink href={"#home"}><li>Home</li></AnchorLink>
-            <AnchorLink href={"#about"}><li>about</li></AnchorLink>
-            <AnchorLink href={"#skills"}><li>skills</li></AnchorLink>
-            <AnchorLink href={"#projects"}><li>projects</li></AnchorLink>
-            <AnchorLink href={"#contact"}><li>contact</li></AnchorLink>
+            <AnchorLink href={"#about"}><li>About</li></AnchorLink>
+            <AnchorLink href={"#skills"}><li>Skills</li></AnchorLink>
+            <AnchorLink href={"#projects"}><li>Projects</li></AnchorLink>
+            <AnchorLink href={"#contact"}><li>Contact</li></AnchorLink>
                 <button>Resume</button>
             </ul>)}
         </div>
