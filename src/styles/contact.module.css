@@ -5,9 +5,10 @@
     margin-top: 100px;
     font-family: 'Poppins','sans-serif';
     width: 70%;
-    gap: 30px;
     flex-direction: column;
     position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .Contact>div:nth-child(2)>div:nth-child(1){
@@ -23,4 +24,63 @@
 .Contact>div:nth-child(1)>div{
     width: 250px;
     border: 1px solid #8892B0;
+}
+.Contact>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Contact>div:nth-child(2)>p{
+    text-align: left;
+    width: 40%;
+    margin-top: -15px;
+    font-family: "Andika","sans-serif";
+    color: #8892B0;
+}
+.Contact>div:nth-child(2)>h2{
+    color: #CCD6F6;
+    font-size: 40px;
+}
+.Contact>div:nth-child(2)>a>button{
+    padding: 15px 20px;
+    border: 1px solid #5fe4c9;
+    background-color: transparent;
+    color: #5fe4c9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.Contact>div:nth-child(3){
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+@media screen and (min-width:420px )and (max-width:800px) {
+    .Contact{
+        width: 80%;
+
+    }
+    .Contact>div:nth-child(2)>p{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:221px )and (max-width:420px) {
+    .Contact{
+        width: 90%;
+    }
+    .Contact>div:nth-child(2)>p{
+        width: 90%;
+    }
+    .Contact>div:nth-child(1)>div{
+        width: 100px;
+    }
+    .Contact>div:nth-child(1)>h2{
+        font-size: 20px;
+    }
 }

@@ -9,6 +9,8 @@ import { Contact } from './Pages/Contact';
 import rocket from "./Images/LogoLoader.gif"
 import ParticlesBubble from './particles/Particles';
 import { useEffect, useState } from 'react';
+import { GithubCale } from './Pages/GithubCalendar';
+import { GitHubStats } from './Pages/gitHubStats';
 function App() {
   const [loader,setLoader] = useState(true)
   useEffect(()=>{
@@ -28,7 +30,12 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <GithubCale/>
+      <GitHubStats/>
       <Contact/>
+      <div>
+        Designed & Developed by Vishal Singh Rajawat.
+      </div>
     </div>
   );
 }

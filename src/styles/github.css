@@ -1,0 +1,69 @@
+.calendar{
+    background-color: #0A192F;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.gitCalendar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.gitCalendar>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #CCD6F6;
+}
+.gitCalendar>div:nth-child(1)>div{
+    width: 250px;
+    border: 1px solid #8892B0;
+}
+
+
+@media screen and (min-width:420px )and (max-width:800px) {
+    .gitCalendar{
+        width: 80%;
+
+    }
+    .calendar{
+        width: 350px;
+        font-size: 13px;
+    }
+    .gitCalendar>div:nth-child(1)>div{
+        width: 100px;
+    }
+    .gitCalendar>div:nth-child(1)>h2{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:221px )and (max-width:420px) {
+    .gitCalendar{
+        width: 90%;
+
+    }
+    .calendar{
+        width: 320px;
+        font-size: 13px;
+        height: 100px;
+    }
+    .gitCalendar>div:nth-child(1)>div{
+        width: 100px;
+    }
+    .gitCalendar>div:nth-child(1)>h2{
+        font-size: 20px;
+    }
+    .gitStats{
+        width: 320px;
+    }
+   
+}

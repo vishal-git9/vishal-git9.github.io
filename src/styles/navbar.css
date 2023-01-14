@@ -33,7 +33,7 @@
     font-size: 14px;
     font-family: 'Andika', sans-serif;
 }
-.navbar>div:nth-child(3)>ul>button{
+.navbar>div:nth-child(3)>ul>a>button{
     padding: 15px 20px;
     border: 1px solid #5fe4c9;
     background-color: transparent;
@@ -61,8 +61,30 @@ position: fixed;
 
 .bm-item-list>a{
     text-decoration: none;
-    color:#0A192F;
+    color:#8892B0;
+    font-size: 16px;
+    font-family: 'Andika', sans-serif;
 }
-
+.bm-item-list>a>button{
+    padding: 15px 20px;
+    border: 1px solid #5fe4c9;
+    background-color: transparent;
+    color: #5fe4c9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    margin-top: 15px;
+}
+.bm-burger-button>span>span:nth-child(1){
+    height: 10%;
+}
+.bm-burger-button>span>span:nth-child(2){
+    height: 10%;
+    width: 65%;
+}
+.bm-burger-button>span>span:nth-child(3){
+    height: 10%;
+}
 /* for medium screen */
 

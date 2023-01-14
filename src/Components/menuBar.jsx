@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
 import "../styles/navbar.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import {RiMenu3Fill} from "react-icons/ri"
-import {RxCross1} from "react-icons/rx"
+// import {RiMenu3Fill} from "react-icons/ri"
+// import {RxCross1} from "react-icons/rx"
 const styles = {
     bmBurgerButton: {
       position: 'fixed',
@@ -23,10 +23,10 @@ const styles = {
     bmCrossButton: {
       height: '24px',
       width: '24px',
-      color:"#0A192F"
+      color:"#5fe4c9"
     },
     bmCross: {
-      background: '#0A192F'
+      background: '#5fe4c9'
     },
     bmMenuWrap: {
       position: 'fixed',
@@ -35,15 +35,15 @@ const styles = {
       top:"0px"
     },
     bmMenu: {
-        background: '#5fe4c9',
-      padding: '2.5em 1.5em 0',
+        background: '#0A192F',
+      padding: '2.5em 0.6em 0',
       fontSize: '1.15em',
       overflow:"hidden",
       right:"0px",
-      width:"80%"
+      width:"100%"
     },
     bmMorphShape: {
-      fill: '#0A192F',
+      fill: '#5fe4c9',
       width:"100%"
     },
     bmItemList: {
@@ -73,12 +73,13 @@ export const Menubar = () => {
         setOpen(state.isOpen)
     }
   return (
-    <Menu styles={styles}  noOverlay right={true} isOpen={open} onStateChange={(state)=>handleChange(state)}>
+    <Menu styles={styles}  noOverlay right={true} isOpen={open} onStateChange={(state)=>handleChange(state)} >
         <AnchorLink className="menu-item" href="#home" onClick={()=>setOpen(false)}>Home</AnchorLink>
         <AnchorLink  className="menu-item" href="#about" onClick={()=>setOpen(false)}>About</AnchorLink>
         <AnchorLink className="menu-item" href="#skills" onClick={()=>setOpen(false)}>Skills</AnchorLink>
         <AnchorLink  className="menu-item" href="#projects" onClick={()=>setOpen(false)}>Projects</AnchorLink>
         <AnchorLink className="menu-item" href="#contact" onClick={()=>setOpen(false)}>Contact</AnchorLink>
+        <a href="https://drive.google.com/drive/u/0/folders/1wW_uTE_pxCYVJr6OkcPOyEffKud94NFX"><button>Resume</button></a>
       </Menu>
   )
 }

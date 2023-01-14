@@ -5,6 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from "../Images/PortFoliologo.png"
 import { Menubar } from './menuBar';
 import useWindowDimensions from '../Hooks/useWindow';
+import PDF from "../Images/Vishal_Singh_Resume.pdf"
 export const Navbar = () => {
   const { scrollYProgress } = useScroll()
   const [medium,setMedium]  = useState(false)
@@ -31,7 +32,7 @@ export const Navbar = () => {
             <AnchorLink href={"#skills"}><li>Skills</li></AnchorLink>
             <AnchorLink href={"#projects"}><li>Projects</li></AnchorLink>
             <AnchorLink href={"#contact"}><li>Contact</li></AnchorLink>
-                <button>Resume</button>
+                <a href={PDF} download="Vishal_Singh_Resume.pdf"> <button >Resume</button></a>
             </ul>)}
         </div>
     </div>

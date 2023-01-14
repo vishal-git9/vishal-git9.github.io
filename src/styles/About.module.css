@@ -55,6 +55,17 @@
     display: flex;
     gap: 10px;
 }
+.About>div:nth-child(2)>div:nth-child(1)>div>a>button{
+    padding: 15px 20px;
+    border: 1px solid #5fe4c9;
+    background-color: transparent;
+    color: #5fe4c9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 15px;
+}
 .About>div:nth-child(2)>div:nth-child(1)>div:nth-child(3)>p{
     text-align: left;
 }
