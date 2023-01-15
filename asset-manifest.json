@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.042d80be.css",
+    "main.css": "/static/css/main.135a028b.css",
     "main.js": "/static/js/main.f75f6d3d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Vishal_Singh_Resume.pdf": "/static/media/Vishal_Singh_Resume.d6fa0bef335b6913a9f9.pdf",
@@ -8,12 +8,12 @@
     "static/media/profile.jpg": "/static/media/profile.c5a2df724e4e1fbb2085.jpg",
     "static/media/PortFoliologo.png": "/static/media/PortFoliologo.08b5d6383d081bd2e710.png",
     "index.html": "/index.html",
-    "main.042d80be.css.map": "/static/css/main.042d80be.css.map",
+    "main.135a028b.css.map": "/static/css/main.135a028b.css.map",
     "main.f75f6d3d.js.map": "/static/js/main.f75f6d3d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.042d80be.css",
+    "static/css/main.135a028b.css",
     "static/js/main.f75f6d3d.js"
   ]
 }
