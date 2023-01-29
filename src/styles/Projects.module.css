@@ -97,10 +97,13 @@
 
 @media screen and (min-width:420px )and (max-width:800px) {
     .projects{
-        width: 80%;
+        width: 85%;
     }
     .grids{
         grid-template-columns: repeat(2,1fr);
+    }
+    .grids>div{
+        width: 270px;
     }
 }
 
@@ -112,7 +115,20 @@
         grid-template-columns: repeat(1,1fr);
     }
     .grids>div{
-        width: 250px;
+        width: 300px;
     }
 
+    .github{
+        font-size: 25px;
+    }
+
+    .link{
+        font-size: 25px;
+    }
+    .grids>div>div:nth-child(3)>div:nth-child(2)>p{
+        font-size: 10px;
+    }
+    .grids>div>div:nth-child(3)>div:nth-child(1)>p{
+        font-size: 12px;
+    }
 }

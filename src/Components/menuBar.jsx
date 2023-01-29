@@ -51,7 +51,8 @@ const styles = {
       padding: '0.8em',
       display:"flex",
       flexDirection:"column",
-      gap:"20px"
+      gap:"20px",
+      alignItems:"center"
 
     },
     bmitem:{
