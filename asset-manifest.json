@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2eb637c1.css",
-    "main.js": "/static/js/main.45d8f1ac.js",
+    "main.css": "/static/css/main.8e8e15eb.css",
+    "main.js": "/static/js/main.7dd8863d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/Diapers.png": "/static/media/Diapers.66ec0925965618c1e11a.png",
+    "static/media/Kindmeal.png": "/static/media/Kindmeal.95bf5e5cbfb812473f38.png",
+    "static/media/Crux.png": "/static/media/Crux.1424d27d54aa9d1922d0.png",
     "static/media/Vishal_Singh_Resume.pdf": "/static/media/Vishal_Singh_Resume.d6fa0bef335b6913a9f9.pdf",
+    "static/media/Lightmail.png": "/static/media/Lightmail.6088730fa9b207b0cdf6.png",
     "static/media/LogoLoader.gif": "/static/media/LogoLoader.eb151eea4e942064948b.gif",
     "static/media/profile.jpg": "/static/media/profile.c5a2df724e4e1fbb2085.jpg",
     "static/media/PortFoliologo.png": "/static/media/PortFoliologo.08b5d6383d081bd2e710.png",
     "index.html": "/index.html",
-    "main.2eb637c1.css.map": "/static/css/main.2eb637c1.css.map",
-    "main.45d8f1ac.js.map": "/static/js/main.45d8f1ac.js.map",
+    "main.8e8e15eb.css.map": "/static/css/main.8e8e15eb.css.map",
+    "main.7dd8863d.js.map": "/static/js/main.7dd8863d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eb637c1.css",
-    "static/js/main.45d8f1ac.js"
+    "static/css/main.8e8e15eb.css",
+    "static/js/main.7dd8863d.js"
   ]
 }
