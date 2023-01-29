@@ -27,15 +27,25 @@
     border: 1px solid #8892B0;
 }
 
+@media screen and (min-width:320px )and (max-width:600px){
+    .callu{
+        width: 90% !important;
+        margin: auto;
+    }
+}
 
 @media screen and (min-width:420px )and (max-width:800px) {
     .gitCalendar{
         width: 80%;
 
     }
-    .calendar{
+    /* .calendar{
         width: 350px;
         font-size: 13px;
+    } */
+    .callu{
+        width: 100% !important;
+        margin: auto;
     }
     .gitCalendar>div:nth-child(1)>div{
         width: 100px;
@@ -51,10 +61,13 @@
         width: 90%;
 
     }
-    .calendar{
+    /* .calendar{
         width: 320px;
         font-size: 13px;
-        height: 100px;
+    } */
+    .callu{
+        width: 90% !important;
+        margin: auto;
     }
     .gitCalendar>div:nth-child(1)>div{
         width: 100px;

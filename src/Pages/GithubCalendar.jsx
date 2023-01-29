@@ -22,8 +22,8 @@ export const GithubCale = () => {
         <div></div>
       </div>
       <div>
-    <div className='calendar '>
-       <ReactGitHubCalendar global_stats={true} tooltips  responsive userName="vishal-git9"/>
+    <div className='calendar callu'>
+       <ReactGitHubCalendar global_stats={true} tooltips  responsive={true} userName="vishal-git9"/>
     </div>
     </div>
     </div>

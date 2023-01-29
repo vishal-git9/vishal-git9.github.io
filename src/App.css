@@ -27,3 +27,23 @@ body {
   font-family: "Andika","sans-serif";
 
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+  z-index: -1;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5fe4c9;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5fe4c9;
+}

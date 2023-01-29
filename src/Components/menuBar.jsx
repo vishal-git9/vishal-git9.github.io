@@ -36,7 +36,7 @@ const styles = {
     },
     bmMenu: {
         background: '#0A192F',
-      padding: '2.5em 0.6em 0',
+      padding: '2.5em 1.4em 0',
       fontSize: '1.15em',
       overflow:"hidden",
       right:"0px",
