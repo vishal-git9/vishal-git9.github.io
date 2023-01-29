@@ -16,6 +16,9 @@
 .grids>div>div:nth-child(1){
     border: 2px solid #5fe4c9;
     padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .grids>div>div:nth-child(1)>img{
     width: 100%;
@@ -115,7 +118,9 @@
         grid-template-columns: repeat(1,1fr);
     }
     .grids>div{
-        width: 300px;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
     }
 
     .github{
@@ -130,5 +135,13 @@
     }
     .grids>div>div:nth-child(3)>div:nth-child(1)>p{
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width:321px )and (max-width:370px){
+    .grids>div{
+        justify-content: center;
+        align-items: center;
+        width: 240px;
     }
 }
