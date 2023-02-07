@@ -20,14 +20,14 @@ export const Navbar = () => {
     }
   },[width])
   return (
-    <div className="navbar">
+    <div className="navbar" id="nav-menu">
       <motion.div  className="progress-bar" style={{scaleX:scrollYProgress}}/>
         <div>
             <img src={logo} alt="" />
         </div>
         <div>
           {medium?(<Menubar/>):(<ul>
-            <AnchorLink href={"#home"}><li>Home</li></AnchorLink>
+            <AnchorLink href={"#home"} className="nav-link home"><li>Home</li></AnchorLink>
             <AnchorLink href={"#about"}><li>About</li></AnchorLink>
             <AnchorLink href={"#skills"}><li>Skills</li></AnchorLink>
             <AnchorLink href={"#projects"}><li>Projects</li></AnchorLink>

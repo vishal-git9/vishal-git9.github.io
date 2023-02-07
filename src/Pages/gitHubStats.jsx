@@ -5,13 +5,6 @@ export const GitHubStats = () => {
   return (
     <div className='gitCalendar'>
       <div>
-        {/* <p
-          style={{
-            color: "#5fe4c9",
-          }}
-        >
-          02.
-        </p> */}
         <BiStats color="#5fe4c9" fontSize={"25px"}/>
         <h2>Git Stats</h2>
         <div></div>

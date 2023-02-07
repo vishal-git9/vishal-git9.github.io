@@ -25,6 +25,7 @@ export const Contact = () => {
           best to get back to you!
         </p>
         <p className={styles.email}>Email: <span>vishalsinghrajawat990@gmail.com</span></p>
+        <p className={styles.email}>Phone: <span>+91-9106517547</span></p>
         <a href="mailto: vishalsinghrajawat990@gmail.com">
           <button>Say Hello</button>
         </a>

@@ -10,13 +10,6 @@ export const GithubCale = () => {
   return (
     <div className='gitCalendar'>
         <div>
-        {/* <p
-          style={{
-            color: "#5fe4c9",
-          }}
-        >
-          02.
-        </p> */}
         <AiFillCalendar color="#5fe4c9" fontSize={"25px"}/>
         <h2>Git Calendar</h2>
         <div></div>

@@ -7,13 +7,6 @@ export const About = () => {
     <div className={styles.About} id="about">
       {/* 01. about me */}
       <div>
-        {/* <p
-          style={{
-            color: "#5fe4c9",
-          }}
-        >
-          02.
-        </p> */}
         <BsFillPersonFill color="#5fe4c9" fontSize={"25px"}/>
         <h2>About Me</h2>
         <div></div>
