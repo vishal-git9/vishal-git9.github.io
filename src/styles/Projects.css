@@ -57,10 +57,10 @@
     align-items: center;
     margin: auto;
 }
-.link{
+.project-deployed-link{
     color: #8892B0;
 }
-.link:hover{
+.project-deployed-link:hover{
     color: #5fe4c9;
     cursor: pointer;
 }
@@ -123,11 +123,11 @@
         width: 280px;
     }
 
-    .github{
+    .project-github-link{
         font-size: 25px;
     }
 
-    .link{
+    .project-deployed-link{
         font-size: 25px;
     }
     .grids>div>div:nth-child(3)>div:nth-child(2)>p{

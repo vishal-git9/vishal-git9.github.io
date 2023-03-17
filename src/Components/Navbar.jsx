@@ -10,7 +10,7 @@ export const Navbar = () => {
   const { scrollYProgress } = useScroll()
   const [medium,setMedium]  = useState(false)
   // for medium screen
-  const { height, width } = useWindowDimensions();
+  const {width } = useWindowDimensions();
   useEffect(()=>{
     if(width<=800){
       setMedium(true)
@@ -32,7 +32,7 @@ export const Navbar = () => {
             <AnchorLink href={"#skills"} className = "nav-link skills"><li>Skills</li></AnchorLink>
             <AnchorLink href={"#projects"} className = "nav-link projects"><li>Projects</li></AnchorLink>
             <AnchorLink href={"#contact"} className = "nav-link contact"><li>Contact</li></AnchorLink>
-                <a href={PDF} download="Vishal_Singh_Resume.pdf" className='nav-link resume'> <button >Resume</button></a>
+                <a href={PDF} download="Vishal_Singh_Resume.pdf" className='nav-link resume' id="resume-button-1" rel = "noreferrer" target={"_blank"}> <button >Resume</button></a>
             </ul>)}
         </div>
     </div>

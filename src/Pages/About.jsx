@@ -30,7 +30,7 @@ export const About = () => {
               date with the latest technologies in order to provide the best
               solutions for any company or organization.
             </p>
-            <a href="https://drive.google.com/drive/u/0/folders/1wW_uTE_pxCYVJr6OkcPOyEffKud94NFX"><button>Resume</button></a>
+            <a href="https://drive.google.com/drive/u/0/folders/1wW_uTE_pxCYVJr6OkcPOyEffKud94NFX" rel="noreferrer" target={"_blank"} id="resume-button-2"><button>Resume</button></a>
           </div>
 
           {/* for list */}
@@ -40,7 +40,7 @@ export const About = () => {
 
         <div className={styles.profile}>
           <div>
-            <img src={profile} alt="profile" />
+            <img src={profile} className="home-img" alt="profile" />
             <div></div>
           </div>
         </div>

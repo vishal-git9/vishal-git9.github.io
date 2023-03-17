@@ -10,7 +10,9 @@ import rocket from "./Images/LogoLoader.gif"
 import ParticlesBubble from './particles/Particles';
 import { useEffect, useState } from 'react';
 import { GithubCale } from './Pages/GithubCalendar';
-import { GitHubStats } from './Pages/gitHubStats';
+import { GitLanguages } from './Pages/gitLanguages';
+import { GitHubStreak } from './Pages/gitHubStats';
+import { GitHubStats } from './Pages/gitStats';
 function App() {
   const [loader,setLoader] = useState(true)
   useEffect(()=>{
@@ -31,7 +33,9 @@ function App() {
       <Skills/>
       <Projects/>
       <GithubCale/>
+      <GitHubStreak/>
       <GitHubStats/>
+      <GitLanguages/>
       <Contact/>
       <div>
         Designed & Developed by Vishal Singh Rajawat.

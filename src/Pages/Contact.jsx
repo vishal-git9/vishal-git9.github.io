@@ -24,8 +24,8 @@ export const Contact = () => {
           open. Whether you have a question or just want to say hi, I’ll try my
           best to get back to you!
         </p>
-        <p className={styles.email}>Email: <span>vishalsinghrajawat990@gmail.com</span></p>
-        <p className={styles.email}>Phone: <span>+91-9106517547</span></p>
+        <p className={styles.email} id="contact-email">Email: <span>vishalsinghrajawat990@gmail.com</span></p>
+        <p className={styles.email} id="contact-phone">Phone: <span>+91-9106517547</span></p>
         <a href="mailto: vishalsinghrajawat990@gmail.com">
           <button>Say Hello</button>
         </a>
@@ -33,6 +33,7 @@ export const Contact = () => {
       <div>
         <a
           href="https://github.com/vishal-git9"
+          id="contact-github"
           target={"_blank"}
           rel={"noreferrer"}
         >
@@ -40,6 +41,7 @@ export const Contact = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/vishal-rajawat-768577196/"
+          id="contact-linkedin"
           target={"_blank"}
           rel={"noreferrer"}
         >

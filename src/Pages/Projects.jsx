@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Projects.module.css";
+import "../styles/Projects.css";
 import { TbExternalLink } from "react-icons/tb";
 import { HiFolder } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
@@ -9,7 +9,7 @@ import Crux from "../Images/Crux.png";
 import Lightmail from "../Images/Lightmail.png";
 export const Projects = () => {
   return (
-    <div className={styles.projects} id="projects">
+    <div className="projects" id="projects">
       <div>
         {/* <p
           style={{
@@ -23,8 +23,8 @@ export const Projects = () => {
         <div></div>
       </div>
       {/* for project one */}
-      <div className={styles.grids}>
-        <div>
+      <div className={"grids"}>
+        <div className="project-card">
           <div>
             <img src={Kindmeal} alt="Kindmeal" />
           </div>
@@ -33,26 +33,26 @@ export const Projects = () => {
               <FiGithub
                 color="#5fe4c9"
                 fontSize={"35px"}
-                className={styles.github}
+                className="project-github-link"
                 fontWeight="light"
                 cursor={"pointer"}
               />
             </a>
             <a href="https://gregarious-chimera-037834.netlify.app/">
-              <TbExternalLink className={styles.link} fontSize={"30px"} />
+              <TbExternalLink className={`project-deployed-link`} fontSize={"30px"} />
             </a>
           </div>
           <div>
             <div>
-              <h3>Kindmeal Clone</h3>
-              <p>
+              <h3 className="project-title">Kindmeal Clone</h3>
+              <p className="project-description">
                 KindMeal is a platform that helps users discover vegan and
                 vegetarian restaurants in their area. It also offers discounts
                 and promotions on plant-based meals at participating
                 restaurants.{" "}
               </p>
             </div>
-            <div>
+            <div className="project-tech-stack">
               <p>HTML</p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
@@ -60,7 +60,7 @@ export const Projects = () => {
           </div>
         </div>
         {/* 2nd project */}
-        <div>
+        <div className="project-card">
           <div>
             <img src={Crux} alt="Crux" />
           </div>
@@ -69,13 +69,13 @@ export const Projects = () => {
               <FiGithub
                 color="#5fe4c9"
                 fontSize={"35px"}
-                className={styles.github}
+                className={"project-github-link"}
                 fontWeight="light"
                 cursor={"pointer"}
               />
             </a>
             <a href="https://beamish-griffin-0ee078.netlify.app/">
-              <TbExternalLink className={styles.link} fontSize={"30px"} />
+              <TbExternalLink className={"project-deployed-link"} fontSize={"30px"} />
             </a>
           </div>
           <div>
@@ -87,7 +87,7 @@ export const Projects = () => {
                 based in Italy
               </p>
             </div>
-            <div>
+            <div className="project-tech-stack">
               <p>HTML</p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
@@ -95,7 +95,7 @@ export const Projects = () => {
           </div>
         </div>
         {/* 3rd project */}
-        <div>
+        <div className="project-card">
           <div>
             <img src={Lightmail} alt="Lightmail" />
           </div>
@@ -104,13 +104,13 @@ export const Projects = () => {
               <FiGithub
                 color="#5fe4c9"
                 fontSize={"35px"}
-                className={styles.github}
+                className={"project-github-link"}
                 fontWeight="light"
                 cursor={"pointer"}
               />
             </a>
             <a href="https://lightmail.netlify.app/">
-              <TbExternalLink className={styles.link} fontSize={"30px"} />
+              <TbExternalLink className={"project-deployed-link"} fontSize={"30px"} />
             </a>
           </div>
           <div>
@@ -123,11 +123,12 @@ export const Projects = () => {
                 subscribers.
               </p>
             </div>
-            <div>
+            <div className="project-tech-stack">
               <p>HTML</p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
               <p>REACT</p>
+              <p>CHAKRAUI</p>
             </div>
           </div>
         </div>
@@ -140,16 +141,16 @@ export const Projects = () => {
               <FiGithub
                 color="#5fe4c9"
                 fontSize={"35px"}
-                className={styles.github}
+                className={"project-github-link"}
                 fontWeight="light"
                 cursor={"pointer"}
               />
             </a>
             <a href="https://diapersnew.vercel.app/">
-              <TbExternalLink className={styles.link} fontSize={"30px"} />
+              <TbExternalLink className={"project-deployed-link"} fontSize={"30px"} />
             </a>
           </div>
-          <div>
+          <div className="project-card">
             <div>
               <h3>Carters Clone</h3>
               <p>
@@ -159,7 +160,7 @@ export const Projects = () => {
                 other retail outlets such as department stores.
               </p>
             </div>
-            <div>
+            <div className="project-tech-stack">
               <p>HTML</p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
