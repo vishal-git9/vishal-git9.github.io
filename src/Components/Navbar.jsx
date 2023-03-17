@@ -28,11 +28,11 @@ export const Navbar = () => {
         <div>
           {medium?(<Menubar/>):(<ul>
             <AnchorLink href={"#home"} className="nav-link home"><li>Home</li></AnchorLink>
-            <AnchorLink href={"#about"}><li>About</li></AnchorLink>
-            <AnchorLink href={"#skills"}><li>Skills</li></AnchorLink>
-            <AnchorLink href={"#projects"}><li>Projects</li></AnchorLink>
-            <AnchorLink href={"#contact"}><li>Contact</li></AnchorLink>
-                <a href={PDF} download="Vishal_Singh_Resume.pdf"> <button >Resume</button></a>
+            <AnchorLink href={"#about"} className = "nav-link about"><li>About</li></AnchorLink>
+            <AnchorLink href={"#skills"} className = "nav-link skills"><li>Skills</li></AnchorLink>
+            <AnchorLink href={"#projects"} className = "nav-link projects"><li>Projects</li></AnchorLink>
+            <AnchorLink href={"#contact"} className = "nav-link contact"><li>Contact</li></AnchorLink>
+                <a href={PDF} download="Vishal_Singh_Resume.pdf" className='nav-link resume'> <button >Resume</button></a>
             </ul>)}
         </div>
     </div>

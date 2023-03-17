@@ -5,11 +5,11 @@ export const Home = () => {
     <div className={styles.Home} id="home">
       <p>Hi, my name is</p>
       <div>
-        <h1>Vishal Singh</h1>
+        <h1 id="user-detail-name">Vishal Singh</h1>
         <h1>I build things for the web</h1>
       </div>
       <div>
-        <p>
+        <p id="user-detail-intro">
           I’m a software developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible, human-centered <span style={{

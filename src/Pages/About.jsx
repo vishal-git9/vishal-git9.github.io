@@ -4,7 +4,7 @@ import profile from "../Images/profile.jpg";
 import {BsFillPersonFill} from "react-icons/bs"
 export const About = () => {
   return (
-    <div className={styles.About} id="about">
+    <div className={`${styles.About} section`} id="about">
       {/* 01. about me */}
       <div>
         <BsFillPersonFill color="#5fe4c9" fontSize={"25px"}/>
