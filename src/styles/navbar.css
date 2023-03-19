@@ -14,6 +14,7 @@
 .navbar>div:nth-child(2){
     padding: 0px 10px;
 }
+
 .navbar>div:nth-child(2)>img{
     width: 100px;
 }
@@ -26,14 +27,14 @@
     justify-content: space-around;
     align-items: center;
 }
-.navbar>div:nth-child(3)>ul>a>li{
+.navbar>div:nth-child(3)>ul>.nav-link>li{
     color: #8892B0;
     text-decoration: none;
     list-style: none;
     font-size: 14px;
     font-family: 'Andika', sans-serif;
 }
-.navbar>div:nth-child(3)>ul>a>button{
+.navbar>div:nth-child(3)>ul>.nav-link>button{
     padding: 15px 20px;
     border: 1px solid #5fe4c9;
     background-color: transparent;
@@ -42,10 +43,10 @@
     cursor: pointer;
     font-weight: bold;
 }
-.navbar>div:nth-child(3)>ul>a{
+.navbar>div:nth-child(3)>ul>.nav-link{
     text-decoration: none;
 }
-.navbar>div:nth-child(3)>ul>a>li:hover{
+.navbar>div:nth-child(3)>ul>.nav-link>li:hover{
     color: #5fe4c9;
     cursor: pointer;
 }

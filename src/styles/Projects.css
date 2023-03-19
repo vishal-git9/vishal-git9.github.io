@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
-.projects{
+.Projects{
     margin: auto;
     width: 70%;
     margin-top: 100px;
@@ -25,13 +25,13 @@
     height: 100%;
     object-fit: cover;
 }
-.projects>div:nth-child(1){
+.Projects>div:nth-child(1){
     display: flex;
     align-items: center;
     gap: 10px;
     color: #CCD6F6;
 }
-.projects>div:nth-child(1)>div{
+.Projects>div:nth-child(1)>div{
     width: 250px;
     border: 1px solid #8892B0;
 }
@@ -99,7 +99,7 @@
 }
 
 @media screen and (min-width:420px )and (max-width:800px) {
-    .projects{
+    .Projects{
         width: 85%;
     }
     .grids{
@@ -111,7 +111,7 @@
 }
 
 @media screen and (min-width:221px )and (max-width:420px) {
-    .projects{
+    .Projects{
         width: 90%;
     }
     .grids{

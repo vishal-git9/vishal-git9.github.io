@@ -9,7 +9,7 @@ import Crux from "../Images/Crux.png";
 import Lightmail from "../Images/Lightmail.png";
 export const Projects = () => {
   return (
-    <div className="projects" id="projects">
+    <div className="Projects" id="projects">
       <div>
         {/* <p
           style={{
@@ -80,8 +80,8 @@ export const Projects = () => {
           </div>
           <div>
             <div>
-              <h3>Yoox Clone</h3>
-              <p>
+              <h3 className="project-title">Yoox Clone</h3>
+              <p className="project-description">
                 YOOX is an online retailer of designer fashion, home decor,and
                 other lifestyle products. The company was founded in 2000 and is
                 based in Italy
@@ -115,8 +115,8 @@ export const Projects = () => {
           </div>
           <div>
             <div>
-              <h3>Mailchimp Clone</h3>
-              <p>
+              <h3  className="project-title" >Mailchimp Clone</h3>
+              <p className="project-description">
                 Mailchimp is a web-based email marketing service that allows
                 businesses and organizations to send newsletters, promotional
                 emails, and other types of marketing emails to their
@@ -132,7 +132,8 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div>
+        {/* 4th project */}
+        <div className="project-card">
           <div>
             <img src={Diapers} alt="Diapers" />
           </div>
@@ -150,10 +151,10 @@ export const Projects = () => {
               <TbExternalLink className={"project-deployed-link"} fontSize={"30px"} />
             </a>
           </div>
-          <div className="project-card">
+          <div>
             <div>
-              <h3>Carters Clone</h3>
-              <p>
+              <h3  className="project-title">Carters Clone</h3>
+              <p className="project-description">
                 This is a Clone of Carters which is a major American designer
                 and marketer of children's apparel. Carter's sells its products through its own
                 Carter's and OshKosh B'gosh retail stores, its website, and in
