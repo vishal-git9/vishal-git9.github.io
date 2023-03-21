@@ -18,7 +18,7 @@ export const Home = () => {
         </p>
       </div>
       <div>
-        <button>About me</button>
+<button >About me</button>
       </div>
     </div>
   );

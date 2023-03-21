@@ -32,7 +32,7 @@ export const About = () => {
               date with the latest technologies in order to provide the best
               solutions for any company or organization.
             </p>
-            <a href={PDF} download="Vishal_Singh_Resume.pdf" rel = "noreferrer" target={"_blank"}> <button id="resume-button-2">Resume</button></a>
+            <a href={PDF} download="Vishal_Singh_Resume.pdf" rel = "noopener noreferrer" target={"_blank"}> <button id='resume-link-2'>Resume</button></a>
           </div>
 
           {/* for list */}
