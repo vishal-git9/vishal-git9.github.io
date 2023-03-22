@@ -32,7 +32,7 @@ export const Navbar = () => {
             <AnchorLink href={"#skills"} className = "nav-link skills"><li>Skills</li></AnchorLink>
             <AnchorLink href={"#projects"} className = "nav-link projects"><li>Projects</li></AnchorLink>
             <AnchorLink href={"#contact"} className = "nav-link contact"><li>Contact</li></AnchorLink>
-                <a href={PDF} download="Vishal_Singh_Resume.pdf" className='nav-link resume' rel = "noreferrer" target={"_blank"}> <button id='resume-link-1'>Resume</button></a>
+                <a href={PDF} download="Vishal_Singh_Resume.pdf" className='nav-link resume' id='resume-link-1' rel = "noreferrer" target={"_blank"}> <button id='resume-button-1'>Resume</button></a>
             </ul>)}
         </div>
     </div>

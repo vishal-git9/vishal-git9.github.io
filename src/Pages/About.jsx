@@ -5,6 +5,8 @@ import {BsFillPersonFill} from "react-icons/bs"
 import PDF from "../Images/Vishal_Singh_Resume.pdf"
 
 export const About = () => {
+  // const resumebtn2=()=> window.location.assign("https://drive.google.com/file/d/1VizK68zb5OI9COxDlJ129064ufMLCEsg/view?usp=sharing")
+
   return (
     <div className={`about section About`} id="about">
       {/* 01. about me */}
@@ -32,7 +34,7 @@ export const About = () => {
               date with the latest technologies in order to provide the best
               solutions for any company or organization.
             </p>
-            <a href={PDF} download="Vishal_Singh_Resume.pdf" rel = "noopener noreferrer" target={"_blank"}> <button id='resume-link-2'>Resume</button></a>
+            <a href={PDF} download="Vishal_Singh_Resume.pdf" rel = "noreferrer" id='resume-link-2' target={"_blank"}><button id="resume-button-2">Resume </button></a>
           </div>
 
           {/* for list */}
