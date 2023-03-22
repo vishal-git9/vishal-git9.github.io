@@ -33,8 +33,12 @@ export const About = () => {
               large web applications. I am constantly learning and staying up to
               date with the latest technologies in order to provide the best
               solutions for any company or organization.
+              {/* href={"fw21_0842-Surya-Prakash-Pokhriyal-Resume.pdf"} 
+                  download={'fw21_0842-Surya-Prakash-Pokhriyal-Resume.pdf'}
+                  textDecoration='null'
+                  target="_blank" rel="noreferrer" */}
             </p>
-            <a href={PDF} download="Vishal_Singh_Resume.pdf" rel = "noreferrer" id='resume-link-2' target={"_blank"}><button id="resume-button-2">Resume </button></a>
+            <a href={PDF} rel = "noreferrer" id="resume-button-2" smooth="true" onClick={() => window.open(PDF)} target={"_blank"} download="Vishal_Singh_Resume.pdf"><button>Resume </button></a>
           </div>
 
           {/* for list */}
