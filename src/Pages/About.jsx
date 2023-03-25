@@ -38,7 +38,7 @@ export const About = () => {
                   textDecoration='null'
                   target="_blank" rel="noreferrer" */}
             </p>
-            <a href={PDF} rel = "noreferrer" id="resume-button-2" smooth="true" onClick={() => window.open(PDF)} target={"_blank"} download="Vishal_Singh_Resume.pdf"><button>Resume </button></a>
+            <a href={PDF} rel = "noreferrer" className='nav-link resume' smooth="true" target={"_blank"} download="Vishal_Singh_Resume.pdf"><button id="resume-button-2">Resume </button></a>
           </div>
 
           {/* for list */}
