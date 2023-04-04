@@ -18,7 +18,10 @@ export const Home = () => {
         </p>
       </div>
       <div>
-<button >About me</button>
+      <button type="button" id="resume-button-2" onClick={()=>{window.open('https://drive.google.com/file/d/1VizK68zb5OI9COxDlJ129064ufMLCEsg/view?usp=sharing',"_blank")}}>
+      <a href="/Vishal_Singh_Resume.pdf" id="resume-link-2" download>Resume</a>
+      </button>
+{/* <button >About me</button> */}
       </div>
     </div>
   );

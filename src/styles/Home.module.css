@@ -51,6 +51,12 @@
     width: 150px;
 }
 
+.Home>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: #5fe4c9;
+
+}
+
 /* for medium screen */
 @media screen and (min-width:420px )and (max-width:800px) {
     .Home{

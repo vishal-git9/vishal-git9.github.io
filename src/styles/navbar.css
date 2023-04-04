@@ -27,6 +27,19 @@
     justify-content: space-around;
     align-items: center;
 }
+.navbar>div:nth-child(3)>ul>button{
+    padding: 15px 20px;
+    border: 1px solid #5fe4c9;
+    background-color: transparent;
+    color: #5fe4c9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar>div:nth-child(3)>ul>button>a{
+    text-decoration: none;
+    color: #5fe4c9;
+}
 .navbar>div:nth-child(3)>ul>.nav-link>li{
     color: #8892B0;
     text-decoration: none;
@@ -35,13 +48,7 @@
     font-family: 'Andika', sans-serif;
 }
 .navbar>div:nth-child(3)>ul>.nav-link>button{
-    padding: 15px 20px;
-    border: 1px solid #5fe4c9;
-    background-color: transparent;
-    color: #5fe4c9;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+    
 }
 .navbar>div:nth-child(3)>ul>.nav-link{
     text-decoration: none;

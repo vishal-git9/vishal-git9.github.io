@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import profile from "../Images/profile.jpg";
 import {BsFillPersonFill} from "react-icons/bs"
-import PDF from "../Images/Vishal_Singh_Resume.pdf"
+// import PDF from "../Images/Vishal_Singh_Resume.pdf"
 
 export const About = () => {
   // const resumebtn2=()=> window.location.assign("https://drive.google.com/file/d/1VizK68zb5OI9COxDlJ129064ufMLCEsg/view?usp=sharing")
@@ -38,7 +38,6 @@ export const About = () => {
                   textDecoration='null'
                   target="_blank" rel="noreferrer" */}
             </p>
-            <a href="/Vishal_Singh_Resume.pdf" className='nav-link resume' id="resume-link-2" download><button id="resume-button-2" onClick={()=>{window.open(`https://drive.google.com/file/d/1VizK68zb5OI9COxDlJ129064ufMLCEsg/view?usp=sharing`,"_blank")}}>Resume</button></a>
           </div>
 
           {/* for list */}
