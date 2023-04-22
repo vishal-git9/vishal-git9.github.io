@@ -49,13 +49,13 @@
     color: white;
 }
 
-@media screen and (min-width:420px )and (max-width:800px) {
+@media screen and (min-width:420px )and (max-width:1024px) {
     .Skills{
         width: 80%;
     }
     .Skills>div:nth-child(2)>div{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
         justify-content: space-around;
     }
 }

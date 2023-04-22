@@ -135,7 +135,7 @@
     left: 5px;
     cursor: pointer;
 }
-@media screen and (min-width:420px )and (max-width:800px) {
+@media screen and (min-width:420px )and (max-width:1024px) {
     .About{
         width: 80%;
 

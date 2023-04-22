@@ -58,7 +58,7 @@
 }
 
 /* for medium screen */
-@media screen and (min-width:420px )and (max-width:800px) {
+@media screen and (min-width:420px )and (max-width:1024px) {
     .Home{
         width: 80%;
     }
@@ -66,8 +66,6 @@
         font-size: 45px;
     }
     .Home>div:nth-child(2){
-        height: 190px;
-        line-height:0px;
         flex-wrap: nowrap;
     }
     .Home>div:nth-child(2)>h1:nth-child(2){

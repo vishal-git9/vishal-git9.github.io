@@ -65,7 +65,7 @@
     color: #CCD6F6;
 }
 
-@media screen and (min-width:420px )and (max-width:800px) {
+@media screen and (min-width:420px )and (max-width:1024px) {
     .Contact{
         width: 80%;
 
