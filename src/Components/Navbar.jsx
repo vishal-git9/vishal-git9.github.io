@@ -5,7 +5,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from "../Images/PortFoliologo.png";
 import { Menubar } from "./menuBar";
 import useWindowDimensions from "../Hooks/useWindow";
-import PDF from "../Images/Vishal_Singh_Resume.pdf";
 export const Navbar = () => {
   const { scrollYProgress } = useScroll();
   const [medium, setMedium] = useState(false);
@@ -59,7 +58,7 @@ export const Navbar = () => {
               }}
             >
               <a
-                href="/Vishal_Singh_Resume.pdf"
+                href="/Vishal-Singh-Resume.pdf"
                 id="resume-link-1"
                 className="nav-link resume"
                 download

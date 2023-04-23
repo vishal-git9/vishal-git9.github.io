@@ -46,7 +46,7 @@
     height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .grids>div{
@@ -106,22 +106,40 @@
     margin-top: -10px;
 }
 
-@media screen and (min-width:420px )and (max-width:1024px) {
+@media screen and (min-width:701px )and (max-width:912px) {
     .Projects{
         width: 85%;
     }
     .grids{
-        grid-template-columns: repeat(2,1fr);
-        gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
     }
     .grids>div{
-        width: 270px;
+        width: 500px;
+        height: fit-content;
+    }
+    .project-card>div:nth-child(3){
+        height: auto;
     }
 }
-
-@media screen and (min-width:221px )and (max-width:420px) {
+@media screen and (min-width:913px )and (max-width:1280px){
+    .Projects{
+        width: 85%;
+    }
+    .grids>div{
+        width: 380px;
+    }
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+@media screen and (min-width:221px )and (max-width:700px) {
     .Projects{
         width: 90%;
+    }
+    .project-card>div:nth-child(3){
+        height: fit-content;
     }
     .grids{
         grid-template-columns: repeat(1,1fr);
@@ -129,7 +147,8 @@
     .grids>div{
         justify-content: center;
         align-items: center;
-        width: 280px;
+        width: 300px;
+        height: fit-content;
     }
 
     .project-github-link{
@@ -151,6 +170,7 @@
     .grids>div{
         justify-content: center;
         align-items: center;
-        width: 240px;
+        width: 270px;
+        height: fit-content;
     }
 }
