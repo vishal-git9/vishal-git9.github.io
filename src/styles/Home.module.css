@@ -58,7 +58,7 @@
 }
 
 /* for medium screen */
-@media screen and (min-width:420px )and (max-width:1024px) {
+@media screen and (min-width:420px )and (max-width:1224px) {
     .Home{
         width: 80%;
     }
