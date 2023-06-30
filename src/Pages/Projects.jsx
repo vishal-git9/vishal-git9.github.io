@@ -5,7 +5,7 @@ import { HiFolder } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
 import Diapers from "../Images/Diapers.png";
 import Kindmeal from "../Images/Kindmeal.png";
-import Crux from "../Images/Crux.png";
+import blog from "../Images/blogapp.png";
 import Lightmail from "../Images/Lightmail.png";
 import lenskart from "../Images/lenskart.png";
 import limeroad from "../Images/limeroad.png"
@@ -28,7 +28,7 @@ export const Projects = () => {
       <div className={"grids"}>
         <div className="project-card">
           <div>
-            <img src={Kindmeal} alt="Kindmeal" />
+            <img src={Kindmeal} alt="Kindmeal"/>
           </div>
           <div>
             <a href="https://github.com/vishal-git9/divine-eggnog-8153" target="_blank" rel="noreferrer">
@@ -67,10 +67,10 @@ export const Projects = () => {
         {/* 2nd project */}
         <div className="project-card">
           <div>
-            <img src={Crux} alt="Crux" />
+            <img src={blog} alt="Crux" />
           </div>
           <div>
-            <a href="https://github.com/vishal-git9/unbecoming-sofa-7946" target="_blank" rel="noreferrer">
+            <a href="https://github.com/vishal-git9/blogs_backend" target="_blank" rel="noreferrer">
               <FiGithub
                 color="#5fe4c9"
                 fontSize={"35px"}
@@ -79,7 +79,7 @@ export const Projects = () => {
                 cursor={"pointer"}
               />
             </a>
-            <a href="https://beamish-griffin-0ee078.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="https://blogapp-blush.vercel.app/" target="_blank" rel="noreferrer">
               <TbExternalLink
                 className={"project-deployed-link"}
                 fontSize={"30px"}
@@ -88,19 +88,20 @@ export const Projects = () => {
           </div>
           <div>
             <div>
-              <h3 className="project-title">Yoox Clone</h3>
+              <h3 className="project-title">Blog App</h3>
               <p className="project-description">
-                YOOX is an online retailer of designer fashion, home decor,and
-                other lifestyle products. The company was founded in 2000 and is
-                based in Italy
+                This is a Full Stack blog app wherein user have to authenticate first and then user can avail actions like add his/her blogs, read other blogs, like and comment blogs also.
               </p>
             </div>
             <div className="project-tech-stack">
               <p>HTML</p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
-              <p>JSON SERVER</p>
-              <p>RAPID API</p>
+              <p>REACT</p>
+              <p>REDUX</p>
+              <p>NODE</p>
+              <p>EXPRESS</p>
+              <p>MONGODB</p>
             </div>
           </div>
         </div>
