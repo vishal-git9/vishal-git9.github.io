@@ -1,47 +1,36 @@
 import './App.css';
 // color 5fe4c9
-import { Projects } from './Pages/Projects';
-import { Navbar } from './Components/Navbar';
-import { Home } from './Pages/Home';
-import { About } from './Pages/About';
-import { Skills } from './Pages/Skills';
-import { Contact } from './Pages/Contact';
-import rocket from "./Images/LogoLoader.gif"
-import ParticlesBubble from './particles/Particles';
-import { useEffect, useState } from 'react';
-import { GithubCale } from './Pages/GithubCalendar';
-import { GitLanguages } from './Pages/gitLanguages';
-import { GitHubStreak } from './Pages/gitHubStats';
-import { GitHubStats } from './Pages/gitStats';
+
+import React from 'react';
+import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from './Components';
+import styled from 'styled-components';
+import { Main } from './styles';
+import { useLocation } from 'react-router-dom';
+import { mockdata } from './utils/mockdata';
+
+const StyledMainContainer = styled(Main)`
+  counter-reset: section;
+`;
 function App() {
-  const [loader,setLoader] = useState(true)
-  useEffect(()=>{
-    setTimeout(() => {
-      setLoader(false)
-    }, 3000);
-  })
-  return loader? <div className='loader'>
-    <div>
-    <img src={rocket} alt="loader"/>
-    </div>
-  </div>:(
+
+  const location = useLocation();
+  return (
     <div className="App">
-      <ParticlesBubble/>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <GithubCale/>
-      <GitHubStreak/>
-      <GitHubStats/>
-      <GitLanguages/>
-      <Contact/>
-      <div>
-        Designed & Developed by Vishal Singh Rajawat.
-      </div>
+      {/* <ParticlesBubble/> */}
+        <Layout location={location}>
+    <StyledMainContainer className="fillHeight">
+      <Hero data={mockdata.hero} />
+      <About data={mockdata.about} />
+      <Jobs data={mockdata.Jobs} />
+      <Featured data={mockdata.Featured} />
+       <Projects data={mockdata.Projects} />
+      <Contact data={mockdata.contact} />
+    </StyledMainContainer>
+  </Layout>
+
+     
     </div>
-  );
+  )
 }
 
 export default App;

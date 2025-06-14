@@ -20,7 +20,16 @@
     "react-ts-github-calendar": "^1.0.3",
     "react-tsparticles": "^2.7.1",
     "tsparticles": "^2.7.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-helmet": "^5.2.1",
+    "react-transition-group": "^4.3.0",
+    "scrollreveal": "^4.0.5",
+    "smooth-scroll": "^16.1.0",
+    "styled-components": "^4.4.0",
+    "lodash": "^4.17.15",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "animejs": "^3.1.0"
   },
   "scripts": {
     "predeploy": "npm run build",
